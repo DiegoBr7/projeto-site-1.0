@@ -1,0 +1,415 @@
+
+body{
+  max-width: 1140px;
+  margin:0 auto ;
+}
+.new{
+   position: absolute;
+   top: 50px;
+   font-size: 25px;
+   color: white;
+   display: flex;
+   letter-spacing: 8px;
+   width: 20px;
+   margin-left: 300px;  
+   text-decoration: none; 
+   list-style: none;
+   font-weight: bold
+   }
+   .register{
+    position: absolute;
+    top: 50px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    letter-spacing: 8px;
+    width: 20px;
+    margin-left: 40px;  
+    text-decoration: none; 
+    list-style: none;
+    font-weight: bold
+   }
+   .pr{
+    position: absolute;
+    top: 50px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    letter-spacing: 8px;
+    width: 20px;
+    margin-left: 700px;  
+    text-decoration: none; 
+    list-style: none;
+    font-weight: bold
+   }
+   .game{
+    position: absolute;
+    top: 50px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    letter-spacing: 8px;
+    width: 20px;
+    margin-left: 900px;  
+    text-decoration: none; 
+    list-style: none;
+    font-weight: bold
+   }
+   button{
+     position: relative;
+     bottom: 100px;
+     border-color: white;
+     color: white;
+     left: 50px;
+     width: 200px;
+     height: 40px;
+     border-radius:10px;
+     background: rgba(0, 0, 0, 0.4);
+   }
+   .menu01{
+     width: 100%;
+     height: 500px;
+     background-color: black;
+     position: relative;
+     bottom: 60px;
+   }
+   aside{
+     color: white;
+     width: 350px;
+     font-size: 20px;
+
+   }
+ .titulo01{
+   font-size: 35px;
+   position: relative;
+   top: 120px;
+   left: 200px;
+ }
+ .txt01{
+   font-size: 17px;
+  position: relative;
+  top: 150px;
+  left: 200px;
+ }
+ .titulo02{
+  font-size: 15px;
+  position: relative;
+  top: 100px;
+  left: 200px;
+ }
+ .bt02{
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  left: 750px;
+  border: none;
+  top: 10px;
+ }
+ .barra01{
+   height: 70px;
+   width: 2px;
+   background-color: white;
+   position: relative;
+   left: 850px;
+ }
+ .barra2{
+  height: 70px;
+  width: 2px;
+  background-color: white;
+  position: relative;
+  left: 850px;
+  top: 20px;
+}
+.ima{
+  max-width: 1140px;
+  width:25% ;
+  height: 100%;
+  display: flex;
+  position: relative;
+  bottom: 60px;
+}
+.p{
+  width: 290px;
+  height: 160px;
+  color: rgb(212, 211, 211);
+  font-size: 18px;
+  position:absolute;
+  left: 880px;
+  top: 250px;
+  padding: 150px auto;
+}
+.a{
+  width: 290px;
+  height: 160px;
+  color: rgb(212, 211, 211);
+  font-size: 18px;
+  position:absolute;
+  top: 250px;
+  padding: 150px auto;
+}
+.i{
+  width: 290px;
+  height: 160px;
+  color:rgb(212, 211, 211);
+  font-size: 18px;
+  position:absolute;
+  top: 250px;
+  left: 300px;
+  padding: 150px auto;
+}
+.h{
+  width: 290px;
+  height: 160px;
+  color: rgb(212, 211, 211);
+  font-size: 18px;
+  position:absolute;
+  left: 600px;
+  top: 250px;
+  padding: 150px auto;
+}
+.t01{
+  width: 300px;
+  position:absolute;
+  left: 880px;
+  top: 200px;
+  color: white;
+}
+.t02{
+  width: 300px;
+  position:absolute;
+  left: 600px;
+  top: 200px;
+  color: white;
+}
+.t03{
+  width: 300px;
+  position:absolute;
+  left: 300px;
+  top: 200px;
+  color: white;
+}
+.t04{
+  width: 300px;
+  position:absolute;
+  top: 200px;
+  color: white;
+}
+.bt001{
+  height: 30px;
+  width: 100px;
+  position:absolute;
+  top: 350px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
+.bt002{
+  height: 30px;
+  width: 100px;
+  position:absolute;
+  top: 350px;
+  left: 600px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
+.bt003{
+  height: 30px;
+  width: 100px;
+  position:absolute;
+  top: 350px;
+  left: 300px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
+.bt004{
+  height: 30px;
+  width: 100px;
+  position:absolute;
+  top: 350px;
+  left: 880px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
+.nw1{
+  height: 30px;
+  width: 100px;
+  position:absolute;
+  top: 170px;
+  color:orange;
+}
+.nw2{
+  height: 30px;
+  width: 100px;
+  position:absolute;
+  top: 170px;
+  left: 300px;
+  color:orange;
+}
+.nw3{
+  height: 30px;
+  width: 100px;
+  position:absolute;
+  left: 600px;
+  top: 170px;
+  color:orange;
+}
+.nw4{
+  height: 30px;
+  width: 100px;
+  position:absolute;
+  top: 170px;
+  left: 880px;
+  color:orange;
+}
+ .cry4{
+ position: relative;
+ top: 400px;
+ left: 100px;
+}
+.mamute{
+  position: relative;
+  left: 250px;
+}
+.th01{
+ font-size: 25px;
+ position: relative;
+ bottom: 220px;
+ left:100px;
+ color: black;
+}
+.p005{
+  position: relative;
+  bottom: 230px;
+  left: 80px;
+ width: 400px;
+}
+.ab{
+  position: relative;
+  bottom: 350px;
+  left: 100px;
+}
+.th02{
+  font-size: 25px;
+  position: absolute;
+  top: 2130px;
+  left: 700px;
+  color: black;
+}
+.ab2{
+  position:absolute;
+  top: 2050px;
+  left: 700px;
+ 
+}
+.p006{
+  position: absolute;
+  top: 2200px;
+  left: 700px;
+ width: 400px;
+}
+footer{
+  background-color: black;
+  width: 1140px;
+  height: 800px;
+  margin-top: 300px;
+}
+.bt011{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  left: 890px;
+  top:2550px;
+  border: none;
+}
+.bt012{
+  background-color: black;
+  position:absolute;
+  left: 970px;
+  top: 2550px;
+
+}
+.ed{
+  width: 170px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 550px;
+  top: 2700px;
+}
+.pla{
+  width: 170px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 800px;
+  top: 2700px;
+}
+.or{
+  color: orange;
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
+.wh{
+  color: white;
+  position: relative;
+  top: 130px;
+  left: 100px;
+}
+.gr{
+  position: relative;
+  top: 90px;
+  left: 100px;
+  width: 300px;
+  color: gray;
+}
+.buy{
+  font-weight: bolder;
+  position: relative;
+  top: 200px;
+  left: 600px;
+  color: white;
+  border: none;
+  font-size: 13px;
+  padding: 3px auto;
+  margin: 5px auto;
+}
+
+hr{
+  width: 1000px;
+  position: relative;
+  top: 300px;
+}
+.sim{
+  position: absolute;
+  top: 3100px;
+  left: 200px;
+  background: rgba(0, 0, 0, 0.4);
+  
+}
+.imgh{
+   margin-left: 50px;
+   margin-right: 50px;
+   background: rgba(0, 0, 0, 0.4);
+}
+.imgk{
+  margin-left:50px ;
+  margin-right: 50px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.imgw{
+  margin-left:50px ;
+  margin-right: 50px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.imgz{
+  margin-left:50px ;
+  margin-right: 50px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.imgx{
+  margin-left:50px ;
+  margin-right: 50px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
